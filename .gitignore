@@ -1,0 +1,32 @@
+# Dependency directories (Stops massive folders from being uploaded)
+**/node_modules/
+
+# Expo specific builds and caches
+**/.expo/
+**/web-build/
+
+# Android build outputs and caches
+**/android/app/build/
+**/android/.gradle/
+**/android/build/
+*.keystore
+*.jks
+
+# iOS build outputs and caches
+**/ios/build/
+**/ios/DerivedData/
+**/ios/Pods/
+**/ios/.xcode.env.local
+
+# Local environment configuration secrets
+.env
+.env.local
+.env.*.local
+
+# Editor and System caches
+.DS_Store
+**/.vscode/
+**/.idea/
+*.suo
+*.ntvs*
+*.njsproj
